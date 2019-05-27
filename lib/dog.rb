@@ -46,6 +46,7 @@ end
   
   
  def self.create(dog)
+   binding.pry
     dog = Dog.new(dog)
     dog.save
     dog
